@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "tailwindcss -i ./src/index.css -o ./dist/assets/index.css --minify"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -18,7 +17,7 @@
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
-    "tailwindcss": "latest",
+    "tailwindcss": "^3.5.2",
     "vite": "^4.4.9"
   }
 }
